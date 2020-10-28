@@ -1,0 +1,30 @@
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1%;
+}
+
+.row_weather {
+  border: 2px solid;
+  border-color: #5d5d5d;
+  padding: 3%;
+}
+
+.button {
+  font-size: 25px;
+  padding-left: 12px;
+  padding-right: 12px;
+  outline: none;
+  border: 2px solid transparent;
+  color: #5d5d5d;
+  padding-bottom: 4px;
+
+  border-radius: 2px;
+}
+
+.button:hover, .button:focus {
+  border: 2px solid #5d5d5d;
+}
+
+
